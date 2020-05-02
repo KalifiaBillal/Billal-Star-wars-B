@@ -21,12 +21,16 @@ Just be comfortable with the general programming paradigms!
 Understand variables and their datatypes.
 Get familiar with object oriented as well as procedure oriented programming.
 
+# Git the project
+
+All you have to do is to run the command in the terminal
+
 ```Git the project
 // Run
 
 git clone https://github.com/KalifiaBillal/Simple-JavaScript-game
 ```
-Install the OpenJDK 8 package by typing:
+The you have to go inside the file you have download it 
 
 ```Move into the file 
 // Run
@@ -34,7 +38,7 @@ Install the OpenJDK 8 package by typing:
 cd Simple-JavaScript-game
 
 ```
-Verify the installation by typing the following command which will print the Java version:
+What does the Project dir contain
 
 ```The project Tree
 // Run 
@@ -62,7 +66,9 @@ The output should look something like this:
 11 directories
 
 ```
-***Installing Android Studio***
+![VS Code](https://res.cloudinary.com/practicaldev/image/fetch/s--7NXwcRSu--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/qwtlfc0rcvka93a9jsq3.png)
+
+*** How to Install Visual Studio Code on Ubuntu ***
 
 At the time of writing this article, the latest stable version of Android Studio is version 3.3.1.0. The easiest way is to install Android Studio on Ubuntu 18.04 is by using the snappy packaging system.
 
@@ -82,20 +88,6 @@ Once the installation is complete, you will see the following output:
 android-studio 3.3.1.0 from Snapcrafters installed
 ```
 That’s it. Android Studio has been installed on your Ubuntu desktop.
-
-# Arduino project
-
-![Arduino cover](https://scontent.ftun1-1.fna.fbcdn.net/v/t1.0-9/13645146_1429686307057684_8500685619593774449_n.png?_nc_cat=106&_nc_sid=dd9801&_nc_ohc=2S3wf_2HAFMAX84Stun&_nc_ht=scontent.ftun1-1.fna&oh=c67fbb17886d7f4eb1a21e474266c822&oe=5EBF053D)
-
-***Arduino IDE***
-
-The Arduino Integrated Development Environment is a cross-platform application that is written in functions from C and C++. It is used to write and upload programs to Arduino compatible boards, but also, with the help of 3rd party cores, other vendor development boards.
-
-***Which language is used in Arduino IDE?***
-
-The "Arduino language" is simply C++ (and therefore also C). All the standard system librarys are written in C/C++ and the IDE uses the gcc g++ compiler.
-
-![Arduino](https://i.pinimg.com/564x/c6/b4/72/c6b4725ca5fcde572245ced9ade303be.jpg)
 
 # FAQ
 
