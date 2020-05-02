@@ -1,4 +1,4 @@
-<center><a href="https://developer.android.com/studio"><img src="https://www.xda-developers.com/files/2018/06/android-studio-featured-810x298_c.png" title="Android Studio" alt="Android Studio"></a></center>
+<center><a href="https://hackernoon.com/hn-images/1*bxEkHw1xewxOFjmGunb-Cw.png" title="Android Studio" alt="Android Studio"></a></center>
 
 # Simple JavaScript game
 
