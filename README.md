@@ -1,4 +1,4 @@
-<center><a href="https://hackernoon.com/hn-images/1*bxEkHw1xewxOFjmGunb-Cw.png" title="Android Studio" alt="Android Studio"></a></center>
+![JavaScript](https://hackernoon.com/hn-images/1*bxEkHw1xewxOFjmGunb-Cw.png)
 
 # Simple JavaScript game
 
@@ -21,26 +21,24 @@ Just be comfortable with the general programming paradigms!
 Understand variables and their datatypes.
 Get familiar with object oriented as well as procedure oriented programming.
 
-```javascript
+```Git the project
 // Run
 
-sudo apt update
-
+git clone https://github.com/KalifiaBillal/Simple-JavaScript-game
 ```
 Install the OpenJDK 8 package by typing:
 
-```javascript
+```Move into the file 
 // Run
 
-sudo apt install openjdk-8-jdk
+cd Simple-JavaScript-game
 
 ```
 Verify the installation by typing the following command which will print the Java version:
 
-```javascript
-// Run
-
-java -version
+```The project Tree
+// Run 
+tree -d
 
 ```
 
@@ -49,9 +47,19 @@ The output should look something like this:
 ```javascript
 // The output
 
-openjdk version "1.8.0_191"
-OpenJDK Runtime Environment (build 1.8.0_191-8u191-b12-2ubuntu0.18.04.1-b12)
-OpenJDK 64-Bit Server VM (build 25.191-b12, mixed mode)
+├── css
+├── img
+│   ├── meteorites
+│   ├── plane
+│   └── star
+├── js
+│   ├── class
+│   ├── config
+│   ├── scenes
+│   └── utils
+└── sound
+
+11 directories
 
 ```
 ***Installing Android Studio***
