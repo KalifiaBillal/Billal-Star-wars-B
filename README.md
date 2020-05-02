@@ -66,28 +66,59 @@ The output should look something like this:
 11 directories
 
 ```
-![VS Code](https://res.cloudinary.com/practicaldev/image/fetch/s--7NXwcRSu--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/qwtlfc0rcvka93a9jsq3.png)
 
-*** How to Install Visual Studio Code on Ubuntu ***
-
-At the time of writing this article, the latest stable version of Android Studio is version 3.3.1.0. The easiest way is to install Android Studio on Ubuntu 18.04 is by using the snappy packaging system.
-
-To download and install the Android Studio snap package, open your terminal using the Ctrl+Alt+T keyboard shortcut and type:
+Then open it with VS code
 
 ```javascript
 // run
 
-sudo snap install android-studio --classic
+code .
 
 ```
-Once the installation is complete, you will see the following output:
+
+![VS Code](https://res.cloudinary.com/practicaldev/image/fetch/s--7NXwcRSu--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/qwtlfc0rcvka93a9jsq3.png)
+
+*** How to Install Visual Studio Code on Ubuntu ***
+
+Visual Studio Code is a powerful open-source code editor developed by Microsoft. It has built-in debugging support, embedded Git control, syntax highlighting, code completion, integrated terminal, code refactoring, and snippets.
+
+Visual Studio Code Core is cross-platform, available on Windows, Linux, and macOS.
+
+This guide shows two ways of installing Visual Studio Code on Ubuntu 20.04. VS Code can be installed as a snap package via the Snapcraft store or as a deb package from Microsoft repositories.
+
+Update the packages index and install the dependencies by running the following command as a user with sudo privileges:
+
+```javascript
+// run
+
+sudo apt update
+sudo apt install software-properties-common apt-transport-https wget
+
+```
+Import the Microsoft GPG key using the following wget command:
 
 ```javascript
 // The output
 
-android-studio 3.3.1.0 from Snapcrafters installed
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
 ```
-That’s it. Android Studio has been installed on your Ubuntu desktop.
+
+And enable the Visual Studio Code repository by typing:
+
+```javascript
+// The output
+
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+
+```
+Once the apt repository is enabled, install the Visual Studio Code package:
+
+```javascript
+// The output
+
+sudo apt install code
+
+```
 
 # FAQ
 
