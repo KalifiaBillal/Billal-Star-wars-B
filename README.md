@@ -119,6 +119,9 @@ Once the apt repository is enabled, install the Visual Studio Code package:
 sudo apt install code
 
 ```
+# Demo
+
+[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=N-ovXqGO3tQ&feature=youtu.be)
 
 # FAQ
 
